@@ -25,10 +25,10 @@ class Bob {
     {   var bobpos =this.body.position;
         push();
         translate(bobpos.x, bobpos.y);
-        rectMode(CENTER);
+        //rectMode(CENTER);
         strokeWeight()
         fill("yellow");
-        
+        ellipseMode(RADIUS);
         ellipse(0, 0,this.r,this.r);
         pop();
     }
